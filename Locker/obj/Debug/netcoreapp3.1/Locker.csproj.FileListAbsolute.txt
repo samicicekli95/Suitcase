@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\Suitcase\Locker\bin\Debug\netcoreapp3.1\Locker.exe
+C:\Users\admin\source\repos\Suitcase\Locker\bin\Debug\netcoreapp3.1\Locker.deps.json
+C:\Users\admin\source\repos\Suitcase\Locker\bin\Debug\netcoreapp3.1\Locker.runtimeconfig.json
+C:\Users\admin\source\repos\Suitcase\Locker\bin\Debug\netcoreapp3.1\Locker.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Suitcase\Locker\bin\Debug\netcoreapp3.1\Locker.dll
+C:\Users\admin\source\repos\Suitcase\Locker\bin\Debug\netcoreapp3.1\Locker.pdb
+C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.AssemblyInfo.cs
+C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.dll
+C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.pdb
+C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.genruntimeconfig.cache
+C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.csprojAssemblyReference.cache
