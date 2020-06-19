@@ -2,6 +2,7 @@
 using Locker.Enums;
 using Locker.Interfaces;
 using System;
+using System.Threading.Tasks;
 
 namespace Locker
 {
@@ -12,17 +13,26 @@ namespace Locker
             // Suitcase Locker
             IDigitalLock mySuitcaseLocker = new SuitcaseLocker();
             // Passcode Finder
-            IPickLock maymuncuk = new MasterKey();
+            IPickLock myLittleMonkey = new MasterKey();
             //maymuncuk.Unlock()
 
 
             mySuitcaseLocker.Reset();
-            mySuitcaseLocker.Turn(TurnDirection.Forward, 0, 1);
-            mySuitcaseLocker.Turn(TurnDirection.Forward, 1, 2);
-            mySuitcaseLocker.Turn(TurnDirection.Backward, 2, 27);
-            mySuitcaseLocker.Turn(TurnDirection.Backward, 3, 55);
-            mySuitcaseLocker.Lock(false);
+            mySuitcaseLocker.Turn(TurnDirection.Forward, 0, 18);
+            mySuitcaseLocker.Turn(TurnDirection.Forward, 1, 0);
+            mySuitcaseLocker.Turn(TurnDirection.Forward, 2, 12);
+            mySuitcaseLocker.Turn(TurnDirection.Forward, 3, 8);
+            mySuitcaseLocker.Turn(TurnDirection.Forward, 4, 3);     // When you try to Turn non exist digits
             Console.WriteLine(mySuitcaseLocker.ReadAll());
+            Console.WriteLine(mySuitcaseLocker.IsLocked());
+            mySuitcaseLocker.Lock(true);
+            Console.WriteLine(mySuitcaseLocker.ReadAll());
+            Console.WriteLine(mySuitcaseLocker.IsLocked());
+
+
+            string key = "?";
+            key = myLittleMonkey.Unlock(mySuitcaseLocker);
+            Console.WriteLine(key);
 
             //Console.ReadLine();
         }

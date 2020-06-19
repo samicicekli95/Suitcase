@@ -10,4 +10,3 @@ C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.cspro
 C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.dll
 C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.pdb
 C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.genruntimeconfig.cache
-C:\Users\admin\source\repos\Suitcase\Locker\obj\Debug\netcoreapp3.1\Locker.csprojAssemblyReference.cache
